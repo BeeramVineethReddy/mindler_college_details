@@ -8,6 +8,11 @@ This project consists of 4 components namely
 3) register component
 4) college-details component
 
+This project consists of 3 services namely 
+1) login service
+2) register service
+3) database service
+
 The college details are stored in the file `db.json` in the folder `json-server`. When we run `json-server --watch db.json` , we can access the college details.
 In this project I retrived the details from `json-server` using a service **database-service** and displayed using college-details.
 
