@@ -16,6 +16,13 @@ This project consists of 3 services namely
 The college details are stored in the file `db.json` in the folder `json-server`. When we run `json-server --watch db.json` , we can access the college details.
 In this project I retrived the details from `json-server` using a service **database-service** and displayed using college-details.
 
+## Running The project
+
+First run `ng serve` in this folder to start the server. 
+
+
+Now, run `json-server --watch db.json` to access the college details.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
