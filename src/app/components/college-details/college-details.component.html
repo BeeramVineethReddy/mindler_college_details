@@ -1,0 +1,44 @@
+<p>college-details works!</p>
+<br><br><br><br>
+
+<h1>Table of college-details</h1>
+<hr>
+
+
+<table id="colleges">
+  <tr>
+    <th *ngFor="let col of columns">
+      {{col}}
+    </th>
+  </tr>
+  <tr *ngFor="let clg of colleges">
+    <td *ngFor="let col of index">
+      {{clg[col]}}
+    </td>
+  </tr>
+
+</table>
+
+
+<!-- <mat-form-field>
+  <input (keyup)="applyFilter($event.target.value)" matInput placeholder="Filter">
+</mat-form-field> 
+  <mat-table id="colleges">
+    <thead>
+      <tr>
+        <th *ngFor="let col of columns">
+          {{col}}
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngfor="let clg of colleges">
+        <td *ngFor="let col of index">
+          {{clg[col]}}
+        </td>
+      </tr>
+    </tbody>
+  </mat-table> -->
+
+
+
