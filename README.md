@@ -18,20 +18,28 @@ In this project I retrived the details from `json-server` using a service **data
 
 ## Running The project
 
-First run `ng serve` in this folder to start the server. The project runs at port no :4200.
+1)First run `ng serve` in this folder to start the server. The project runs at port no :4200.
+
 ![image](https://user-images.githubusercontent.com/61815113/119250571-9b61f280-bbbe-11eb-86ac-2ce23655376b.png)
 
 
-Now, run `json-server --watch db.json` in json-server folder to access the college details.
+2)Now, run `json-server --watch db.json` in json-server folder to access the college details.
+
 ![image](https://user-images.githubusercontent.com/61815113/119250601-e24fe800-bbbe-11eb-8bca-9b9b98154149.png)
 
-Open the browser and type url  `http://localhost:4200`, login component page is rendered.
+
+3)Open the browser and type url  `http://localhost:4200`, login component page is rendered.
+
 ![image](https://user-images.githubusercontent.com/61815113/119250653-280cb080-bbbf-11eb-90d6-ecf299e75c66.png)
 
-If user is not having account,he/she can register using the button on the top right corner.
+
+4)If user is not having account,he/she can register using the button on the top right corner.
+
 ![image](https://user-images.githubusercontent.com/61815113/119250685-67d39800-bbbf-11eb-97b8-cad82c8a84ec.png)
 
-Once the user is logined he/she can access the college details table. The college-details table looks like this.
+
+5)Once the user is logined he/she can access the college details table. The college-details table looks like this.
+
 ![image](https://user-images.githubusercontent.com/61815113/119250719-a23d3500-bbbf-11eb-84e3-8694f45c0ff3.png)
 
 
